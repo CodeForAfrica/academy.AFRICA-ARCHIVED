@@ -140,7 +140,7 @@ a.blue-btn{
 \* ------------------------------------------------------------ */
 
 .logo-image-index { background-image: url(../css/images/logo-image-index.png); width: 230px; height: 40px; display: inline-block; vertical-align: middle; font-size: 0; }
-.logo {
+.header .logo {
   max-height: 65px;
   margin-top: 5px;
 }
