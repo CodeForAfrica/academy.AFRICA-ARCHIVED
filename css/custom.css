@@ -1,0 +1,212 @@
+img {
+  max-width: 100%;
+}
+
+
+.intro .intro-soldout { max-width: 320px; margin: 45px auto 0; }
+
+.intro-soldout .btn{
+    color:#fe006b!important;
+    background-color:#fff!important;
+}
+
+.intro-soldout .btn:hover{
+    color:rgb(229, 0, 96)!important;
+}
+
+.event-soldout {
+    position: absolute;
+    top: 62%;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translateY(-62%);
+    -ms-transform: translateY(-62%);
+    transform: translateY(-62%);
+    margin: 0;
+    font-weight:600;
+}
+
+/** FIX TRANSFORM POSTION FOR REPSONSIVE **/
+@media (max-width: 1023px) {
+   .event-soldout { font-size: 14px; margin-top:2px; }
+}
+@media (max-width: 767px) {
+  .event-soldout { font-size: 12px;}
+}
+
+.event-box .event-ended { display: block; font-size: 14px; font-weight: 900; text-transform: uppercase; }
+
+.list-stats li a:hover{ color:#fe006b!important; text-decoration:none;}
+.list-stats li a:focus{ color:#fe006b!important; text-decoration:none;}
+
+.pagination > li > a, .pagination > li > span { color:#00acf3; }
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color:#00acf3;
+    border-color:#00acf3;
+}
+.section-partners .section-actions{ text-align:center; padding-top:20px; }
+.footer-bar .social i{ font-size:24px; margin-left:10px; }
+.footer-bar .social a:hover{color:#fe006b;}
+
+#organisers:before{
+    display: block;
+  content: " ";
+  margin-top: -95px;
+  height: 95px;
+  visibility: hidden;
+}
+.section-events { padding: 45px 0 43px!important; }
+.section-about { padding: 20px 0 62px!important; }
+
+#organiselogo{margin-bottom:40px;}
+
+/* ------------------------------------------------------------ *\
+  Section Newsletter
+\* ------------------------------------------------------------ */
+.section-newsletter { padding: 70px 0 89px; background: #222832; color: #fff; }
+.section-newsletter .section-head { padding-bottom: 30px; text-align: center; }
+.section-newsletter .section-title { margin: 0; color: #fff; }
+.section-newsletter p { font-size:24px; }
+
+
+.section-newsletter.section-white { padding: 70px 0 89px; color: #333944!important; background:#fff; }
+.section-newsletter.section-white .section-head { padding-bottom: 30px; text-align: center; }
+.section-newsletter.section-white .section-title { margin: 0; color: #333944; }
+.section-newsletter.section-white p { font-size:24px; }
+.section-newsletter.section-white .form-control { background:#fafafb; border:1px; }
+
+/* ------------------------------------------------------------ *\
+  Profile Thumbs Small for Participants
+\* ------------------------------------------------------------ */
+
+.profile-thumbs { margin: 0 -10px; font-size: 0; }
+.profile-thumb-small { display: inline-block; vertical-align: top; width: 16.66%; padding: 28px 10px 29px; text-align: center; font-size: 18px; }
+.profile-thumb-small .profile-image { position: relative; display: inline-block; overflow: hidden; max-width: 270px; border: 10px solid #f2f2f2; border-radius: 50%; margin-bottom: 22px; -webkit-transform: translateZ(1px); transform: translateZ(1px); }
+.profile-thumb-small .profile-image img { width: 100%; height: auto; }
+.profile-thumb-small .profile-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #fe006b; opacity: 0; transition: .2s; }
+.profile-thumb-small .profile-overlay-inner { position: absolute; top: 50%; left: 0; -webkit-transform: translateY(-100%); -ms-transform: translateY(-100%); transform: translateY(-100%); width: 100%; text-align: center; transition: .2s; }
+.profile-thumb-small .profile-image:hover .profile-overlay { opacity: 1; }
+.profile-thumb-small .profile-image:hover .profile-overlay-inner { -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+.profile-thumb-small .profile-title { margin: 0 0 5px; }
+.profile-thumb-small .profile-title a:hover { color: #fe006b; text-decoration: none; }
+.profile-thumb-small .profile-meta { line-height: 1.2; color: #222731; }
+.profile-thumb-small .profile-meta span { color: #939da5; }
+.profile-thumb-small .socials a { display: block; width: 56px; height: 56px; border-radius: 50%; background: #fff; line-height: 56px; }
+.profile-thumb-small .socials li { padding: 0 10px; }
+@media (max-width: 1023px) {
+  .profile-thumb-small .socials a { width: 35px; height: 35px; line-height: 35px; }
+  .profile-thumb-small .socials li { padding: 0 5px; }
+}
+@media (max-width: 767px) {
+  .profile-thumb-small { width: 50%; font-size: 14px; }
+}
+
+a.event-btn{
+  width:100%!important;
+  line-height:35px!important;
+  height:35px!important;
+  margin-bottom:8px;
+  padding: 0 15px 0 15px!important;
+}
+
+a.blue-btn{
+  background-color:#00acf3;
+}
+/* ------------------------------------------------------------ *\
+  Section Speakers
+\* ------------------------------------------------------------ */
+.section-academy { padding: 90px 0 102px; }
+.section-academy .section-head { padding-bottom: 29px; text-align: center; }
+.section-academy .section-head.text-left { text-align: left; }
+.section-academy .section-body { padding-bottom: 22px; }
+.section-academy .section-title { margin: 0; }
+.section-academy .section-actions { text-align: center; }
+
+.section-academy .container {
+  max-width: 720px;
+}
+@media (max-width: 767px) {
+  .section-academy { padding: 30px 0; }
+
+  .section-academy .section-head.text-left { text-align: center; }
+}
+/* ------------------------------------------------------------ *\
+  Section Academy call out
+\* ------------------------------------------------------------ */
+.section-callout-academy { position: relative; padding: 32px 0 32px; background: #00acf3; color: #fff; }
+
+/* ------------------------------------------------------------ *\
+  NIA and INDEX LOGO
+\* ------------------------------------------------------------ */
+
+.logo-image-index { background-image: url(../css/images/logo-image-index.png); width: 230px; height: 40px; display: inline-block; vertical-align: middle; font-size: 0; }
+.logo {
+  
+}
+
+.anchor{
+    display: block;
+    position: relative;
+    top: -90px;
+    visibility: hidden;
+}
+
+/* ------------------------------------------------------------ *\
+  Section Upcoming Academies
+\* ------------------------------------------------------------ */
+.section-upcoming-academies { padding: 70px 0 89px; background: #222832; color: #fff; }
+.section-upcoming-academies .section-head { padding-bottom: 51px; text-align: center; }
+.section-upcoming-academies .section-title { margin: 0; color: #fff; }
+.section-upcoming-academies .event-thumb .event-date a{ color:#00acf3; }
+
+.small-circles{
+   width:20%!important;
+}
+
+@media (max-width: 767px) {
+  .small-circles{
+    width:50%!important;
+  }
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+  .small-circles{
+    width:25%!important;
+  }
+}
+
+@media (max-width:1199px){
+  .small-circles h2{
+    font-size:22px!important;
+  }
+  .small-circles .event-date{
+    font-size:14px!important;
+  }
+}
+
+#autosubmit{
+  display:none;
+}
+
+/* ------------------------------------------------------------ *\
+  callout box - Practical Details
+\* ------------------------------------------------------------ */
+
+.callout-box {
+    padding: 40px 15px 46px;
+}
+
+.callout-box h2{
+  text-align:center;
+}
+
+.callout-box p {
+    margin-bottom: 20px;
+    text-align:left;
+}
+
+.callout-box p strong {
+    color: #4caff0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
