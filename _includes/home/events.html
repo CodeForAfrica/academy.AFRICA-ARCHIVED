@@ -1,0 +1,39 @@
+<section class="section-events">
+
+  <div class="container">
+    <header class="section-head">
+      <!-- /.section-title -->
+      <h1 class="section-title">Join the StoryLab Series</h1>
+    </header><!-- /.section-head -->
+
+    <div class="section-body">
+      <div class="event-thumbs">
+        {% for event in site.data.events %}
+          <div class="event-thumb small-circles">
+            <div class="event-image">
+
+              <a href="{{ event.url }}">
+                <img src="{{ event.img }}" alt="{{ event.city }}">
+                <div class="event-overlay">
+                  <h2 class="event-title">{{ event.city }}</h2><!-- /.event-title -->
+                </div><!-- /.event-overlay -->
+              </a>
+            </div><!-- /.event-image -->
+
+            <div class="event-content">
+              <h6 class="event-date">
+                <a href="{{ event.url }}">{{ event.date }}</a>
+              </h6><!-- /.event-date -->
+
+              <div class="event-entry">
+                <a href="{{ event.url }}" class="btn btn-text-small event-btn">Summit</a>
+                <a href="{{ event.url }}" class="btn btn-text-small event-btn">Academy</a>
+              </div><!-- /.event-entry -->
+            </div><!-- /.event-content -->
+          </div><!-- /.event-thumb -->
+        {% endfor %}
+
+      </div><!-- /.event-thumbs -->
+    </div><!-- /.section-body -->
+  </div><!-- /.container -->
+</section><!-- /.section-events -->

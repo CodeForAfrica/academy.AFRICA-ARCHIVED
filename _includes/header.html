@@ -1,0 +1,43 @@
+<header class="header {% if page.header-filled == null %} header-solid {% endif %}">
+  <div class="container">
+    <a href="/">
+      <img src="/img/logo-white.png" alt="StoryLab Academy" class="logo">
+    </a>
+
+    <div class="header-inner">
+      <nav class="nav nav-mobile">
+        <a href="#" class="nav-trigger visible-sm visible-xs">
+          <span></span><span></span><span></span>
+        </a>
+        <ul>
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="#">Summits</a>
+          </li>
+          <li>
+            <a href="/academy">Academy</a>
+          </li>
+          <li>
+            <a href="https://facebook.com/HacksHackersAfrica" target="_blank" rel="noopner">Community</a>
+          </li>
+          <li class="visible-xs">
+            <div class="user">
+              <div class="user-signin">
+                <a href="{{ site.registration_form }}" target="_blank" rel="noopner">Register</a>
+              </div><!-- /.user-signin -->
+            </div><!-- /.user -->
+          </li>
+        </ul>
+      </nav><!-- /.nav -->
+
+      <div class="user hidden-xs">
+        <div class="user-signin">
+          <a href="{{ site.registration_form }}" target="_blank" rel="noopner">Register</a>
+        </div><!-- /.user-signin -->
+
+      </div><!-- /.user -->
+    </div><!-- /.header-inner -->
+  </div><!-- /.container -->
+</header><!-- /.header -->

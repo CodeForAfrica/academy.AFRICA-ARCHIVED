@@ -1,0 +1,147 @@
+---
+layout: default
+---
+
+
+<section class="intro">
+  <div class="intro-bg" style="background-image: url(/img/academyFF-resize.jpg)">
+  </div><!-- /.intro-bg -->
+
+  <div class="intro-content">
+    <div class="intro-content-inner">
+      <div class="container">
+
+        <h1>StoryLab Academy</h1>
+
+        <div class="intro-actions">
+          <a href="{{ site.registration_form }}" class="btn btn-block" target="_blank" rel="noopner">Applications Open</a>
+        </div><!-- /.intro-actions -->
+
+      </div><!-- /.container -->
+    </div><!-- /.intro-content-inner -->
+  </div><!-- /.intro-content -->
+</section><!-- /.intro -->
+
+<div class="breadcrumbs">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li>
+        <a href="/">Home</a>
+      </li>
+
+      <li class="active">
+        <a href="/">Academy</a>
+      </li>
+    </ol>
+  </div><!-- /.container -->
+</div><!-- /.breadcrumbs -->
+
+
+<section class="section-callout-academy">
+  <div class="container">
+    <div class="section-body">
+      <div class="row">
+        <div class="col-md-10 col-center">
+          <div class="callout-about">
+            <h2>StoryLab Academy</h2>
+
+            <p></p><p>The StoryLab Academy connects, supports and develops digital innovators in African newsrooms and start-ups.</p><p></p>
+          </div><!-- /.callout-about -->
+        </div><!-- /.col-md-10 -->
+      </div><!-- /.row -->
+    </div><!-- /.section-body -->
+  </div><!-- /.container -->
+</section><!-- /.section-section-callout-academy -->
+
+<section class="section-academy">
+  <div class="container">
+
+    <div class="section-body">
+      <h3>What is the StoryLab Academy?</h3>
+      <p>Organised by Code for Africa, and powered by the Google News Lab and World Bank, this series of one-day workshops offers participants the opportunity to learn techniques for defining new revenue models, building digital products and creating sustainable business initiatives. The goal is to nurture leadership skills in digital innovators by connecting them with other innovators and giving them the tools to scale their ideas, wherever they work.</p>
+      <p>This new initiative will run alongside the 2017 News Impact Summit series, furthering collaboration, the sharing of ideas and professional development. Each Academy meeting will bring together approximately 20 selected participants from different newsrooms and backgrounds. In this 2017 News Impact series we will visit five European cities, namely Rome, Hamburg, Budapest, Manchester and Brussels.</p>
+      <h3>Key benefits for participants:</h3>
+      <p>Why you should attend the StoryLab Academy:</p>
+      <ul>
+        <li>Meet and learn from leading global innovators</li>
+        <li>Learn how other industries approach innovation</li>
+        <li>Discover and master design methodologies that solve everyday challenges</li>
+        <li>Develop leadership skills to help you get things done in your team</li>
+        <li>Get free resources to bring back to the newsroom</li>
+        <li>Receive snapshots and tips from each Academy meeting throughout the year</li>
+      </ul>
+
+      <h3>Key benefits for organisations:</h3>
+      <p>Individuals who attend the News Impact Academy will develop skills that accelerate innovation in any newsroom. How it benefits your organisation:</p>
+      <ul>
+        <li>Professional development motivates and retains staff</li>
+        <li>Builds capacity in your organisation to test new ideas quickly</li>
+        <li>Brings new critical perspectives for product development</li>
+        <li>Creates innovation evangelists without needing to restructure</li>
+        <li>“Levels-up” promising leaders without costing the earth</li>
+        <li>Develops connections and business opportunities</li>
+      </ul>
+
+      <h3>How does it work?</h3>
+      <p>There will be five Academy editions in 2017 that will take place on the day after each News Impact Summit. The Academy is a one-day meeting for approximately 20 selected digital innovators from European newsrooms and start-ups. The programme offers:</p>
+      <ul>
+        <li>Hands-on workshop on how to apply design methodologies in the newsroom</li>
+        <li>Sessions to define newsroom challenges and ideate solutions</li>
+        <li>AMAs and ignite talks with top innovation leaders</li>
+        <li>Networking dinner to connect with fellow digital innovators</li>
+      </ul>
+      <h3>Want to take part in the News Impact Academy?</h3>
+      <p>If you have an idea that you think could change your newsroom, or even the media industry, apply for a News Impact Academy meeting in one of the following cities:</p>
+      <ul>
+        <li>Rome, Italy: Wednesday 24 May</li>
+        <li>Hamburg, Germany: Friday 30 June</li>
+        <li>Budapest, Hungary: Wednesday 20 September</li>
+        <li>Manchester, UK: Friday 3 November</li>
+        <li>Brussels, Belgium: Tuesday 5 December</li>
+      </ul>
+
+      <p>Application Procedure:</p>
+      <p>The application will be open at the end of March 2017. Due to the limited number of spots, the applicant is asked to fill in an application form in order to be considered for the Academy meeting. The organisers will select the participants on the basis of the application form, and the session focus of the Academy meeting according to the location.</p>
+    </div>
+
+    <div class="section-actions">
+      <a href="{{ site.registration_form }}" class="btn btn-bordered btn-bordered-blue btn-text-small">Applications Open</a>
+    </div><!-- /.section-actions -->
+  </div>
+</section>
+
+
+ <section class="section-upcoming-academies">
+  <div class="container">
+    <header class="section-head">
+      <h1 class="section-title">Upcoming Academies</h1><!-- /.section-title -->
+    </header><!-- /.section-head -->
+    <div class="section-body">
+      <div class="event-thumbs">
+        {% for event in site.data.events %}
+          <div class="event-thumb" style="width:20%">
+            <div class="event-image">
+
+              <a href="{{ event.url }}">
+                <img src="{{ event.img }}" alt="">
+                <div class="event-overlay">
+                  <h2 class="event-title">{{ event.city }}</h2><!-- /.event-title -->
+                </div><!-- /.event-overlay -->
+              </a>
+            </div><!-- /.event-image -->
+
+            <div class="event-content">
+              <h6 class="event-date">
+                <a href="{{ event.url }}">{{ event.date }}</a>
+              </h6><!-- /.event-date -->
+            </div><!-- /.event-content -->
+          </div><!-- /.event-thumb -->
+        {% endfor %}
+
+      </div><!-- /.event-thumbs -->
+    </div><!-- /.section-body -->
+  </div><!-- /.container -->
+</section><!-- /.section-upcoming-academies -->
+
+{% include section-wall.html %}
+

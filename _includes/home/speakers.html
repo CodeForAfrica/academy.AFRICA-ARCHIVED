@@ -1,0 +1,46 @@
+<section class="section-speakers section-solid">
+  <div class="container">
+    <header class="section-head">
+      <h1 class="section-title">Meet Our Previous Speakers</h1><!-- /.section-title -->
+    </header><!-- /.section-head -->
+
+    <div class="section-body">
+      <div class="profile-thumbs">
+        {% for speaker in site.data.speakers %}
+          <div class="profile-thumb">
+            <div class="profile-image">
+              <img src="{{ speaker.img }}" alt="{{ speaker.name }}">
+
+              <div class="profile-overlay">
+                <div class="profile-overlay-inner">
+                  <div class="socials">
+                    <ul>
+                       <li>
+                        <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank" rel="noopener">
+                          <i class="ico-twitter-large"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div><!-- /.socials -->
+                </div><!-- /.profile-overlay-inner -->
+              </div><!-- /.profile-overlay -->
+            </div><!-- /.profile-image -->
+
+            <h3 class="profile-title">
+              <a href="/speakers/{{ speaker.name | slugify }}">{{ speaker.name }}</a>
+            </h3><!-- /.profile-title -->
+
+            <div class="profile-meta">
+              {{ speaker.org }} <br>
+              <span>{{ speaker.position }}</span>
+            </div><!-- /.profile-meta -->
+          </div><!-- /.profile-thumb -->
+        {% endfor %}
+      </div><!-- /.profile-thumbs -->
+    </div><!-- /.section-body -->
+
+    <div class="section-actions">
+      <a href="/speakers" class="btn btn-bordered btn-bordered-blue btn-text-small btn-mobile-block">See all speakers</a>
+    </div><!-- /.section-actions -->
+  </div><!-- /.container -->
+</section><!-- /.section-speakers -->
