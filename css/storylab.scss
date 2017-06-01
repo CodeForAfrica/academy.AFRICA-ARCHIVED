@@ -1,0 +1,30 @@
+---
+---
+
+img {
+  max-width: 100%;
+}
+
+
+.powered-by {
+  padding: 50px 0;
+
+  .text-right {
+    padding-top: 15px; padding-bottom: 15px;
+    border-right: 1px solid #eee;
+  }
+  a {
+    img {
+      max-width: 240px;
+      max-height: 65px;
+      margin: 10px;
+    }
+    &:hover {
+      text-decoration: none;
+      img {
+        opacity: 0.8;
+      }
+    }
+  }
+  
+}
