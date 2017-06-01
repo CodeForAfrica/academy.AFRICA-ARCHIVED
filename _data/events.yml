@@ -1,7 +1,9 @@
 - city: Nairobi
   country: Kenya
   date: 24 May 2017
+  theme: Something or other.
   img: /img/Depositphotos_11608695_original.jpg
+  img-bg: /img/Depositphotos_11608695_original.jpg
   url: "#"
 - city: Nairobi
   country: Kenya
