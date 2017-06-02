@@ -13,7 +13,7 @@ sub_title: All StoryLab Speakers
 
         <div class="profile-thumb">
           <div class="profile-image">
-            <img src="{{ speaker.img }}" alt="">
+            <img src="{% if speaker.img == null %}/img/presentation.png{% else %}{{ speaker.img }}{% endif %}" alt="">
 
             <div class="profile-overlay">
               <div class="profile-overlay-inner">
