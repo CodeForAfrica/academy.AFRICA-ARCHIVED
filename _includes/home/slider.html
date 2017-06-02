@@ -3,28 +3,32 @@
     <div class="slides">
 
       {% for event in site.data.events %}
+
+        {% if event.slider %}
         
-      <div class="slide">
-        <section class="intro intro-home">
-          <div class="intro-bg" style="background-image: url('{{ event.img }}')">
-          </div><!-- /.intro-bg -->
+          <div class="slide">
+            <section class="intro intro-home">
+              <div class="intro-bg" style="background-image: url('{{ event.img }}')">
+              </div><!-- /.intro-bg -->
 
-          <div class="intro-content">
-            <div class="intro-content-inner">
-              <div class="container">
-                <p class="disabled">StoryLab Series - {{ event.date }}</p>
+              <div class="intro-content">
+                <div class="intro-content-inner">
+                  <div class="container">
+                    <p class="disabled">StoryLab Series - {{ event.date }}</p>
 
-                <h1>{{ event.city }}</h1>
+                    <h1>{{ event.city }}</h1>
 
-                <p>{{ event.theme }}</p>
-                <div class="intro-actions">
-                  <a href="{{ event.url }}" class="btn btn-block">Register</a>
-                </div><!-- /.intro-actions -->
-              </div><!-- /.container -->
-            </div><!-- /.intro-content-inner -->
-          </div><!-- /.intro-content -->
-        </section><!-- /.intro -->
-      </div><!-- /.slide -->
+                    <p>{{ event.theme }}</p>
+                    <div class="intro-actions">
+                      <a href="{{ event.url }}" class="btn btn-block">Register</a>
+                    </div><!-- /.intro-actions -->
+                  </div><!-- /.container -->
+                </div><!-- /.intro-content-inner -->
+              </div><!-- /.intro-content -->
+            </section><!-- /.intro -->
+          </div><!-- /.slide -->
+
+        {% endif %}
 
       {% endfor %}
       
