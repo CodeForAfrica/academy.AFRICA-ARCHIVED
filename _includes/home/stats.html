@@ -5,27 +5,27 @@
       <ul class="list-stats">
         <li>
           <a href="/summits">
-            <span>22</span>
+            <span>{{ site.data.events | size }}</span>
             <strong>Events</strong>
           </a>
         </li>
 
         <li>
           <a href="/speakers">
-            <span>286</span>
+            <span>{{ site.data.speakers | size }}</span>
             <strong>Speakers</strong>
           </a>
         </li>
         <li>
           <a href="/participants">
-            <span >5820</span>
+            <span >{{ site.data.members | size }}</span>
             <strong>Members</strong>
           </a>
         </li>
 
         <li>
           <a href="/partners">
-            <span >217</span>
+            <span >{{ site.data.partners | size }}</span>
             <strong>Partners</strong>
           </a>
         </li>

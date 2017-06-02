@@ -42,3 +42,11 @@ img {
   }
   
 }
+
+.page-about {
+  .section-body img {
+    max-height: 70px;
+    max-width: 250px;
+    margin: 5px;
+  }
+}

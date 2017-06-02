@@ -1,37 +1,50 @@
 ---
 layout: page
 title: Speakers
+sub_title: All StoryLab Speakers
 ---
 
-{% for speaker in site.data.speakers %}
-  {% if speaker.featured == "TRUE" %}
-  <div class="profile-thumb">
-    <div class="profile-image">
-      <img src="{{ speaker.img }}" alt="{{ speaker.name }}">
+<section class="section-speakers">
+  <div class="container">
+    <div class="section-body">
+      <div class="profile-thumbs">
 
-      <div class="profile-overlay">
-        <div class="profile-overlay-inner">
-          <div class="socials">
-            <ul>
-               <li>
-                <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank" rel="noopener">
-                  <i class="ico-twitter-large"></i>
-                </a>
-              </li>
-            </ul>
-          </div><!-- /.socials -->
-        </div><!-- /.profile-overlay-inner -->
-      </div><!-- /.profile-overlay -->
-    </div><!-- /.profile-image -->
+        {% for speaker in site.data.speakers %}
 
-    <h3 class="profile-title">
-      <a href="/speakers/{{ speaker.name | slugify }}">{{ speaker.name }}</a>
-    </h3><!-- /.profile-title -->
+        <div class="profile-thumb">
+          <div class="profile-image">
+            <img src="{{ speaker.img }}" alt="">
 
-    <div class="profile-meta">
-      {{ speaker.org }} <br>
-      <span>{{ speaker.position }}</span>
-    </div><!-- /.profile-meta -->
-  </div><!-- /.profile-thumb -->
-  {% endif %}
-{% endfor %}
+            <div class="profile-overlay">
+              <div class="profile-overlay-inner">
+                <div class="socials">
+                  <ul>
+                    <li>
+                      <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank" rel="noopener">
+                        <i class="ico-twitter-large"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div><!-- /.socials -->
+              </div><!-- /.profile-overlay-inner -->
+            </div><!-- /.profile-overlay -->
+          </div><!-- /.profile-image -->
+
+          <h3 class="profile-title">
+            {{ speaker.name }}
+          </h3><!-- /.profile-title -->
+
+          <div class="profile-meta">
+            {{ speaker.org }} <br>
+            <span>{{ speaker.position }}</span>
+          </div><!-- /.profile-meta -->
+        </div><!-- /.profile-thumb -->
+
+        {% endfor %}
+
+      </div><!-- /.profile-thumbs -->
+    </div><!-- /.section-body -->
+  </div><!-- /.container -->
+</section>
+
+{% include section-partners.html %}

@@ -1,0 +1,27 @@
+<section class="section-partners section-solid">
+  <div class="container">
+    <header class="section-head">
+      <h5 class="section-title">Our Partners</h5><!-- /.section-title -->
+    </header><!-- /.section-head -->
+
+    <div class="section-body">
+
+      <ul class="list-logos">
+        {% for partner in site.data.partners %}
+        {% if partner.featured == "TRUE" %}
+        <li>
+          <a href="{{ partner.url }}" target="_blank" rel="noopener">
+            <img src="{{ partner.logo }}" alt="{{ partner.name }}">
+          </a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul><!-- /.list-logos -->
+
+      <div class="section-actions">
+       <a href="/partners" class="btn btn-bordered-blue btn-bordered btn-text-small btn-mobile-block">See all Partners</a>
+      </div><!-- /.section-actions -->
+
+    </div><!-- /.section-body -->
+  </div><!-- /.container -->
+</section>
