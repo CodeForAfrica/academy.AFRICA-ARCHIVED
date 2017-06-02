@@ -7,6 +7,7 @@
     <div class="section-body">
       <div class="profile-thumbs">
         {% for speaker in site.data.speakers %}
+          {% if speaker.featured == "TRUE" %}
           <div class="profile-thumb">
             <div class="profile-image">
               <img src="{{ speaker.img }}" alt="{{ speaker.name }}">
@@ -35,6 +36,7 @@
               <span>{{ speaker.position }}</span>
             </div><!-- /.profile-meta -->
           </div><!-- /.profile-thumb -->
+          {% endif %}
         {% endfor %}
       </div><!-- /.profile-thumbs -->
     </div><!-- /.section-body -->
