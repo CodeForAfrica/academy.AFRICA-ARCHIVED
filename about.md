@@ -12,11 +12,11 @@ The StoryLab brings together some of the world’s and Africa’s best digital r
  
 ### Media Party Africa
 
-Themed, “Continental Shift: the invention of the new”,  Media Party Africa 2017 takes place in Cape Town from October 19 - 21, and we’d love you to be there. This year, the emphasis is on solutions and inventions peculiar to diverse African countries, as well as bringing people from all over the world to share ideas, enthusiasms and plans.
+Themed, “Continental Shift: the invention of the new”, [**Media Party Africa 2017**](https://mediaparty.codeforafrica.org/) takes place in Cape Town from October 19 - 21, and we’d love you to be there. This year, the emphasis is on solutions and inventions peculiar to diverse African countries, as well as bringing people from all over the world to share ideas, enthusiasms and plans.
 
 Based on the very successful Media Party Buenos Aires, now in its 6th year, Media Party Africa isn’t your usual staid conference. We eschew too many long talks and panels, and focus on short, sharp presentations (often as short as five minutes), with lots of time and space made available for one-on-one interactions between people who genuinely want to share information and passions. Last year, we had representatives from some of the world’s leading media and tech brands Vox, Google, Quartz, First Draft, ESPN, Pro Publica, and many more.
 
-In October 2016, the inaugural Media Party Africa brought together over 300 civic technologists, hacktivists and data journalists from around the world for three days of intense engagement and sharing.
+In October 2016, the [**inaugural Media Party Africa**](https://medium.com/code-for-africa/africa-is-not-a-newsroom-media-party-africa-ea5d1cc91ffc) brought together over 300 civic technologists, hacktivists and data journalists from around the world for three days of intense engagement and sharing.
  
 ### StoryLab Academy
 
