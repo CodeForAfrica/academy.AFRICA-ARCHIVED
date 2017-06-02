@@ -5,6 +5,20 @@ img {
   max-width: 100%;
 }
 
+.header {
+  .logo {
+    max-height: 55px;
+    margin: 18px 0 13px 3px;
+  }
+}
+
+@media (max-width:767px) {
+  .header .logo {
+    max-height: 45px;
+    margin: 13px 0 13px 3px;
+  }
+} 
+
 
 .powered-by {
   padding: 50px 0;
