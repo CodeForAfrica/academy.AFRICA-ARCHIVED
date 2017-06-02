@@ -1,7 +1,7 @@
 .intro .intro-soldout { max-width: 320px; margin: 45px auto 0; }
 
 .intro-soldout .btn{
-    color:#fe006b!important;
+    color:#ed1c24!important;
     background-color:#fff!important;
 }
 
@@ -31,17 +31,17 @@
 
 .event-box .event-ended { display: block; font-size: 14px; font-weight: 900; text-transform: uppercase; }
 
-.list-stats li a:hover{ color:#fe006b!important; text-decoration:none;}
-.list-stats li a:focus{ color:#fe006b!important; text-decoration:none;}
+.list-stats li a:hover{ color:#ed1c24!important; text-decoration:none;}
+.list-stats li a:focus{ color:#ed1c24!important; text-decoration:none;}
 
-.pagination > li > a, .pagination > li > span { color:#00acf3; }
+.pagination > li > a, .pagination > li > span { color:#1968a8; }
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
-    background-color:#00acf3;
-    border-color:#00acf3;
+    background-color:#1968a8;
+    border-color:#1968a8;
 }
 .section-partners .section-actions{ text-align:center; padding-top:20px; }
 .footer-bar .social i{ font-size:24px; margin-left:10px; }
-.footer-bar .social a:hover{color:#fe006b;}
+.footer-bar .social a:hover{color:#ed1c24;}
 
 #organisers:before{
     display: block;
@@ -58,7 +58,7 @@
 /* ------------------------------------------------------------ *\
   Section Newsletter
 \* ------------------------------------------------------------ */
-.section-newsletter { padding: 70px 0 89px; background: #222832; color: #fff; }
+.section-newsletter { padding: 70px 0 89px; background: #000; color: #fff; }
 .section-newsletter .section-head { padding-bottom: 30px; text-align: center; }
 .section-newsletter .section-title { margin: 0; color: #fff; }
 .section-newsletter p { font-size:24px; }
@@ -78,12 +78,12 @@
 .profile-thumb-small { display: inline-block; vertical-align: top; width: 16.66%; padding: 28px 10px 29px; text-align: center; font-size: 18px; }
 .profile-thumb-small .profile-image { position: relative; display: inline-block; overflow: hidden; max-width: 270px; border: 10px solid #f2f2f2; border-radius: 50%; margin-bottom: 22px; -webkit-transform: translateZ(1px); transform: translateZ(1px); }
 .profile-thumb-small .profile-image img { width: 100%; height: auto; }
-.profile-thumb-small .profile-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #fe006b; opacity: 0; transition: .2s; }
+.profile-thumb-small .profile-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #ed1c24; opacity: 0; transition: .2s; }
 .profile-thumb-small .profile-overlay-inner { position: absolute; top: 50%; left: 0; -webkit-transform: translateY(-100%); -ms-transform: translateY(-100%); transform: translateY(-100%); width: 100%; text-align: center; transition: .2s; }
 .profile-thumb-small .profile-image:hover .profile-overlay { opacity: 1; }
 .profile-thumb-small .profile-image:hover .profile-overlay-inner { -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
 .profile-thumb-small .profile-title { margin: 0 0 5px; }
-.profile-thumb-small .profile-title a:hover { color: #fe006b; text-decoration: none; }
+.profile-thumb-small .profile-title a:hover { color: #ed1c24; text-decoration: none; }
 .profile-thumb-small .profile-meta { line-height: 1.2; color: #222731; }
 .profile-thumb-small .profile-meta span { color: #939da5; }
 .profile-thumb-small .socials a { display: block; width: 56px; height: 56px; border-radius: 50%; background: #fff; line-height: 56px; }
@@ -105,7 +105,7 @@ a.event-btn{
 }
 
 a.blue-btn{
-  background-color:#00acf3;
+  background-color:#1968a8;
 }
 /* ------------------------------------------------------------ *\
   Section Speakers
@@ -128,7 +128,7 @@ a.blue-btn{
 /* ------------------------------------------------------------ *\
   Section Academy call out
 \* ------------------------------------------------------------ */
-.section-callout-academy { position: relative; padding: 32px 0 32px; background: #00acf3; color: #fff; }
+.section-callout-academy { position: relative; padding: 32px 0 32px; background: #1968a8; color: #fff; }
 
 /* ------------------------------------------------------------ *\
   NIA and INDEX LOGO
@@ -149,10 +149,10 @@ a.blue-btn{
 /* ------------------------------------------------------------ *\
   Section Upcoming Academies
 \* ------------------------------------------------------------ */
-.section-upcoming-academies { padding: 70px 0 89px; background: #222832; color: #fff; }
+.section-upcoming-academies { padding: 70px 0 89px; background: #000; color: #fff; }
 .section-upcoming-academies .section-head { padding-bottom: 51px; text-align: center; }
 .section-upcoming-academies .section-title { margin: 0; color: #fff; }
-.section-upcoming-academies .event-thumb .event-date a{ color:#00acf3; }
+.section-upcoming-academies .event-thumb .event-date a{ color:#1968a8; }
 
 .small-circles{
    width:20%!important;
