@@ -706,7 +706,6 @@ a {
     padding: 20px 0;
     font-size: 24px;
     line-height: 1.4;
-    font-weight: 900
 }
 
 .callout-about h2 {
@@ -716,16 +715,6 @@ a {
 
 .callout-about a {
     color: #333944
-}
-
-@media (max-width:767px) {
-    .callout-about h2 {
-        font-size: 20px
-    }
-
-    .callout-about {
-        font-size: 16px
-    }
 }
 
 .copyright {
