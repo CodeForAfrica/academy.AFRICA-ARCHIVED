@@ -8,22 +8,19 @@ body_class: page-about
 
 ### What is StoryLab?
 
-Technology is transforming media consumption, delivery, partnerships, ethics and experimentation. From the ubiquity of mobile devices and data in reporting, to drastic changes in advertising revenue, to the rise of video and live streams — each advance has presented as many opportunities as it has challenges.
-
-The News Impact initiative offers free-of-charge media innovation events, organised by the European Journalism Centre and powered by the Google News Lab. We bring together international media experts with local news communities to focus on how new technology, tools and methods can change the way journalists work in the newsroom.
-
+The StoryLab brings together some of the world’s and Africa’s best digital resources to empower high-quality journalism in Africa.
+ 
 ### Media Party Africa
 
-Mixing keynote speeches, ignite talks, panel discussions, fireside chats and training sessions, the Summits connect editors, newsroom managers, journalists, designers, developers and J-school students with new ideas, tools and methods.
+Themed, “Continental Shift: the invention of the new”,  Media Party Africa 2017 takes place in Cape Town from October 19 - 21, and we’d love you to be there. This year, the emphasis is on solutions and inventions peculiar to diverse African countries, as well as bringing people from all over the world to share ideas, enthusiasms and plans.
 
-The Summits are free-of-charge and organised across Europe to offer a space to meet, network, learn and get inspired by other media outlets, start-ups, academics, as well as experts from other industries.
+Based on the very successful Media Party Buenos Aires, now in its 6th year, Media Party Africa isn’t your usual staid conference. We eschew too many long talks and panels, and focus on short, sharp presentations (often as short as five minutes), with lots of time and space made available for one-on-one interactions between people who genuinely want to share information and passions. Last year, we had representatives from some of the world’s leading media and tech brands Vox, Google, Quartz, First Draft, ESPN, Pro Publica, and many more.
 
-Following the 2014 pilot in Vienna, the European Journalism Centre and the Google News Lab have organised 18 editions of the News Impact Summits, visiting 15 cities in 14 different countries in Europe and the Middle East. The series has featured 260 speakers from The New York Times, BBC, Spiegel Online, Le Monde, Financial Times, Sky News, Vice News, Buzzfeed, Politico, ProPublica, Vox, ESPN, The Economist, Al-Jazeera and others. 
-
+In October 2016, the inaugural Media Party Africa brought together over 300 civic technologists, hacktivists and data journalists from around the world for three days of intense engagement and sharing.
+ 
 ### StoryLab Academy
 
-Launched in June 2017, the StoryLab Academy connects, supports and develops digital innovators in European newsrooms and start-ups. This series of one-day workshops offers participants the opportunity to learn techniques for defining new revenue models, building digital products and creating sustainable business initiatives. The goal is to nurture leadership skills in digital innovators by connecting them with other innovators and giving them the tools to scale their ideas, wherever they work.
-
+Launched in June 2017, the StoryLab Academy connects, supports and develops digital innovators in African newsrooms and start-ups. This series of online and on-site workshops in newsrooms and journalism schools offers participants the opportunity to learn techniques for defining new revenue models, building digital products and creating sustainable business initiatives.
 
 
 ### Contacts
