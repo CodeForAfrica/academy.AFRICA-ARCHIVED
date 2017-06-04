@@ -1,0 +1,5 @@
+---
+layout: courses
+title: Courses
+---
+

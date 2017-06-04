@@ -1,0 +1,37 @@
+<section class="section-courses">
+  <div class="container text-center">
+    <h4>
+      Improve your digital storytelling <br/>
+      with a combination of online webinars and face-to-face training in:
+    </h4>
+    <div class="row">
+      {% for course in site.data.courses %}
+        {% if course.category == "normal" %}
+        <div class="col-sm-3">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h4>{{ course.name }}</h4>
+              <p>{{ course.details }}</p>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <h4>Specialised Courses:</h4>
+    <div class="row">
+      {% for course in site.data.courses %}
+        {% if course.category == "specialised" %}
+        <div class="col-sm-3">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h4>{{ course.name }}</h4>
+              <p>{{ course.details }}</p>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

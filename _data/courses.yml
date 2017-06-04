@@ -1,0 +1,32 @@
+- name: News Gathering
+  description: 
+  icon: 
+  category: normal
+- name: Storytelling
+  description: 
+  icon: 
+  category: normal
+- name: Engagement
+  description: 
+  icon: 
+  category: normal
+- name: Impact
+  description: 
+  icon: 
+  category: normal
+- name: Data Journalism
+  description: 
+  icon: 
+  category: specialised
+- name: Investigative Journalism
+  description: 
+  icon: 
+  category: specialised
+- name: Geo-Journalism
+  description: 
+  icon: 
+  category: specialised
+- name: Video Journalism
+  description: 
+  icon: 
+  category: specialised

@@ -23,6 +23,7 @@ img {
   padding: 0 5px;
 }
 
+
 .powered-by {
   padding: 50px 0;
 
@@ -44,6 +45,15 @@ img {
     }
   }
   
+}
+
+.list-stats li {
+  width: 20%;
+}
+@media (max-width:767px) {
+  .list-stats li {
+    width: 50%;
+  }
 }
 
 .page-about {
