@@ -1,6 +1,6 @@
 - name: News Gathering
   description: 
-  icon: 
+  icon: /img/icons/fundamentals.svg
   category: normal
 - name: Storytelling
   description: 
