@@ -22,7 +22,7 @@ The workshops will be hands-on practical sessions, with one-on-one tuition, desi
  
 Academy trainers -- with support from the StoryLab’s in-house technologists and editors -- will also help newsrooms use their new skills on new flagship projects.
  
-Do you want your newsroom to partner with the Academy? Send us a query here.
+Do you want your newsroom to partner with the Academy? Send us a query [here](/contact-us).
  
 #### University Partnerships
  
@@ -32,7 +32,7 @@ The Academy will therefore work with universities in our target countries to hel
  
 The new courseware will be supported with micro-grants so guest lecturers from global newsrooms can share insights, or to help universities purchase new tools such as 360° cameras for students to hone their skills.
  
-Do you want your university to partner with the Academy? Send us a query here.
+Do you want your university to partner with the Academy? Send us a query [here](/contact-us).
  
 #### Other Opportunities
  
