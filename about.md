@@ -1,48 +1,51 @@
 ---
 layout: about
 title: About StoryLab
-breadcrumbs:
-  - About
 body_class: page-about
 ---
 
-### What is StoryLab?
-
-The StoryLab brings together some of the world’s and Africa’s best digital resources to empower high-quality journalism in Africa.
+**The Future Is Here**
  
-### Media Party Africa
-
-Themed, “Continental Shift: the invention of the new”, [**Media Party Africa 2017**](https://mediaparty.codeforafrica.org/) takes place in Cape Town from October 19 - 21, and we’d love you to be there. This year, the emphasis is on solutions and inventions peculiar to diverse African countries, as well as bringing people from all over the world to share ideas, enthusiasms and plans.
-
-Based on the very successful Media Party Buenos Aires, now in its 6th year, Media Party Africa isn’t your usual staid conference. We eschew too many long talks and panels, and focus on short, sharp presentations (often as short as five minutes), with lots of time and space made available for one-on-one interactions between people who genuinely want to share information and passions. Last year, we had representatives from some of the world’s leading media and tech brands Vox, Google, Quartz, First Draft, ESPN, Pro Publica, and many more.
-
-In October 2016, the [**inaugural Media Party Africa**](https://medium.com/code-for-africa/africa-is-not-a-newsroom-media-party-africa-ea5d1cc91ffc) brought together over 300 civic technologists, hacktivists and data journalists from around the world for three days of intense engagement and sharing.
+African newsrooms often feel left behind.
  
-### StoryLab Academy
+Access to the tools and know-how to leapfrog into digital journalism is often limited to only the most privileged newsrooms. 
+ 
+This new partnership seeks to change that, by bringing together [**Code for Africa**](https://codeforafrica.org/)’s local expertise with [**Google News Lab**](http://newslab.withgoogle.com/)’s global technologies, the [**World Bank**](http://worldbank.org/)’s rich data and information resources and HacksHackers Africa’s online community of 30,000 news geeks across the continent. 
+ 
+Together, we’ll build on Code for Africa’s award-winning StoryLab digital journalism laboratory, which has physical hubs in four African countries along with a global network of roving data journalists and digital creatives who help newsrooms on projects ranging from investigative data analysis, to drone journalism and 360° video.
+ 
+The new Academy adds additional learning materials and media partnerships that expand the geographic footprint and online reach through four initial programmes:
+ 
+**Newsroom Partnerships:** the Academy is partnering with 36 newsrooms for bi-weekly onsite workshops and StoryLab support to use new skills on new flagship projects. Get more details [here](/partners).
+ 
+**Mass Open Online Course (MOOC):** a set of flexible online courses will simultaneously help African journalists anywhere on the continent by giving modular lessons for both beginners and those with more advanced skills in a range of specialist tracks ranging from investigative and data journalism, to multimedia storytelling. Get more details [here](/courses).
+ 
+**Public Workshops:** Face-to-face tuition remains an important of the Academy approach, with workshops and masterclasses co-hosted with local Hacks/Hackers chapters in the 12 target cities, along with support for local study groups and small seed-grants for team projects using the new skills.  Get more details [here](/events).
+ 
+**University Partnerships:** the Academy will also work with African journalism schools to help customise and localise the best available international curricula to strengthen digital journalism training, and to bring in guest lecturers from rolemodel newsrooms. Get more details [here](/partners).
+ 
+“For journalists, recent advances in digital technology present compelling new opportunities. But learning how to use new digital tools for reporting can be daunting. This is particularly true in Africa, where digital integration in news and storytelling often remains a challenge. That’s why we are announcing our support for [this] new digital journalism initiative,” explains Google News Lab’s head of training and development, Daniel Sieberg.
+ 
+The innovations aren’t all from the from the North. Much of the hands-on data journalism training materials that complements Google’s online tutorials were developed and tested in the Sudan and Kenya by the World Bank. The courseware runs alongside repositories of local data (for exercises or projects) and a library of open source software code for easy-to-deploy news apps and visualisations created by Code for Africa teams in Nigeria and Tanzania.
+ 
+Connect with HacksHackers pan-African community [here](https://facebook.com/HacksHackersAfrica).
+Find out more about partnerships opportunities [here](/partners).
+Find out more about our courses and events [here](/academy).
+Contact us [here](/contact-us).
 
-Launched in June 2017, the StoryLab Academy connects, supports and develops digital innovators in African newsrooms and start-ups. This series of online and on-site workshops in newsrooms and journalism schools offers participants the opportunity to learn techniques for defining new revenue models, building digital products and creating sustainable business initiatives.
+---
 
 
-### Contacts
-
-
-Any questions about the StoryLab?
-
-Contact us at **info[at]codeforafrica.org**
-
-Nana Nduati -- Overall StoryLab Academy initiative
-Ashlin Simpson -- Media Party Africa
-Jacopo Ottaviani -- Pan-African StoryLab Initiative
-
-
-
-### Organisers
+#### The Partners:
 
 ![Code for Africa](/img/logos/powered-by/cfafrica.png)
+  
+[**Code for Africa**](https://codeforafrica.org/) (CfA) is the continent’s largest federation of data journalism and civic technology laboratories, with labs in five countries and affiliates in a further five countries. CfA manages the $1m/year [innovateAFRICA.fund](http://innovateafrica.fund) and $500,000/year [impactAFRICA.fund](http://impactafrica.fund), as well as key digital democracy resources such as the [openAFRICA.net](http://openafrica.net/) data portal and [GotToVote.cc](http://gottovote.cc) election toolkit. CfA’s labs incubate a series of trendsetting initiatives, including the [PesaCheck](https://pesacheck.org/) fact-checking initiative in East Africa, the continental [africanDRONE](http://africandrone.net/) network, and the [African Network of Centres for Investigative Reporting](http://investigativecenters.org/) (ANCIR) that spearheaded Panama Papers probes across the continent.
+
 ![Google NewsLab](/img/logos/powered-by/google.png)
+
+[**Google News Lab**](https://newslab.withgoogle.com/) empowers the creation of media that improves people’s lives. It’s mission is to collaborate with journalists and entrepreneurs everywhere to build the future of media with Google. It does this through product partnerships, media trainings, and programs that foster the development of the news industry as a whole. Google began its support for digital and data journalism in Africa in 2010 through intensive workshops and continues to offer newsroom-targeted trainings. It also supported innovateAFRICA’s predecessor, the [African News Innovation Challenge](http://africannewschallenge.org/), in 2012.
+
 ![World Bank](/img/logos/powered-by/worldbank.png)
 
-  
-[**Code for Africa**](https://codeforafrica.org/) is the continent’s largest federation of civic technology and open data laboratories, with affiliate members in 10 African countries and funded projects in a further 12 countries. CfAfrica manages the $1m/year innovateAFRICA.fund and $500,000/year impactAFRICA.fund, as well as key digital democracy resources such as openAFRICA.net and GotToVote.cc.
-
-The [**Google News Lab**](https://newslab.withgoogle.com/) empowers the creation of media that improves people’s lives. Our mission is to collaborate with journalists and entrepreneurs everywhere to build the future of media with Google. We do this through product partnerships, media trainings, and programs that foster the development of the news industry as a whole.
+The [**World Bank Global Media Development Programme**](https://blogs.worldbank.org/category/tags/media-development) helps the media leverage digital technologies to strengthen its role as a driver of good governance. In Africa, this has included support for data-driven journalism training starting in 2011, as part of efforts to improve the media’s analytical capacity. The World Bank also works with African governments to help make data for decisionmaking on development and economic issues more easily available to citizens and the media. The World Bank’s support has included co-funding for the [SudanData.org](http://sudandata.org) to build statistical capacity and data literacy amongst journalists, as well as support for the [HURUmap](http://hurumap.org) initiative to make census and demographic data more easily available to African newsrooms.

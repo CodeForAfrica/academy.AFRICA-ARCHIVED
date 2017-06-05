@@ -1,26 +1,55 @@
 ---
-layout: page
-title: About StoryLab
-breadcrumbs:
-- About
+layout: default
 ---
 
-<section class="section-contact">
-  <div class="container">
 
+<section class="intro">
+  <div class="intro-bg" style="background-image: url('/img/bg/academy-3-1.jpg')">
+  </div><!-- /.intro-bg -->
+
+  <div class="intro-content">
+    <div class="intro-content-inner">
+      <div class="container">
+
+        <h1>About</h1>
+
+        <div class="intro-actions">
+          <a href="/registration" class="btn btn-block">Sign up now</a>
+        </div><!-- /.intro-actions -->
+
+      </div><!-- /.container -->
+    </div><!-- /.intro-content-inner -->
+  </div><!-- /.intro-content -->
+</section><!-- /.intro -->
+
+
+<section class="section-callout-academy">
+  <div class="container">
     <div class="section-body">
       <div class="row">
-        <div class="col-sm-7 col-md-8">
-          <div class="section-content">
-          {{ content }}
-          </div><!-- /.section-content -->
-        </div><!-- /.col-sm-7 -->
+        <div class="col-md-10 col-center">
+          <div class="callout-about">
+            <h2>A Pan-African Partnership</h2>
 
-        <div class="col-sm-5 col-md-4">
-        </div><!-- /.col-sm-5 -->
+            <p>Giving African newsrooms access to the world’s best<br/>digital experts and storytelling technologies.</p>
+          </div><!-- /.callout-about -->
+        </div><!-- /.col-md-10 -->
       </div><!-- /.row -->
     </div><!-- /.section-body -->
   </div><!-- /.container -->
+</section><!-- /.section-section-callout-academy -->
+
+<section class="section-academy">
+  <div class="container">
+
+    <div class="section-body">
+      {{ content }}
+    </div>
+  </div>
 </section>
 
+{% include academy/events.html %}
+
 {% include section-partners.html %}
+
+{% include section-wall.html %}
