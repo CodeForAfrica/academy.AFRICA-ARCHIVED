@@ -2,14 +2,55 @@
 layout: default
 ---
 
-<div class="main-head">
+<section class="intro">
+  <div class="intro-bg" style="background-image: url('/img/bg/academy-2.jpg')">
+  </div><!-- /.intro-bg -->
+
+  <div class="intro-content">
+    <div class="intro-content-inner">
+      <div class="container">
+
+        <h1>{{ page.title }}</h1>
+
+        <div class="intro-actions">
+          <a href="/registration" class="btn btn-block">Applications Open</a>
+        </div><!-- /.intro-actions -->
+
+      </div><!-- /.container -->
+    </div><!-- /.intro-content-inner -->
+  </div><!-- /.intro-content -->
+</section><!-- /.intro -->
+
+<section class="section-callout-academy">
   <div class="container">
-    <h1 class="main-title">{{ page.title }}</h1><!-- /.main-title -->
+    <div class="section-body">
+      <div class="row">
+        <div class="col-md-10 col-center">
+          <div class="callout-about text-center">
+            <h2>{{ page.headline }}</h2>
 
-    <p>{{ page.sub_title }}</p>
+            <p class="lead">{{ page.subheadline }}</p>
+          </div><!-- /.callout-about -->
+        </div><!-- /.col-md-10 -->
+      </div><!-- /.row -->
+    </div><!-- /.section-body -->
   </div><!-- /.container -->
-</div>
+</section><!-- /.section-section-callout-academy -->
 
-<div class="main-body">
-  {{ content }}
-</div>
+<section class="section-academy">
+  <div class="container">
+
+    <div class="section-body">
+      {{ content }}
+    </div>
+
+    <div class="section-actions">
+      <a href="{{ site.registration_form }}" class="btn btn-bordered btn-bordered-blue btn-text-small">Applications Open</a>
+    </div><!-- /.section-actions -->
+  </div>
+</section>
+
+{% include academy/events.html %}
+
+{% include section-wall.html %}
+
