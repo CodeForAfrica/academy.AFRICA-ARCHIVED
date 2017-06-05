@@ -1,0 +1,4 @@
+---
+layout: registration
+title: Registration
+---
