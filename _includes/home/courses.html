@@ -1,38 +1,35 @@
 <section class="section-courses">
   <div class="container text-center">
-    <h4>
+    <h3>
       Improve your digital storytelling <br/>
       with a combination of online webinars and face-to-face training in:
-    </h4>
+    </h3><br/>
     <div class="row">
       {% for course in site.data.courses %}
         {% if course.category == "normal" %}
         <div class="col-sm-3">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <img src="{{ course.icon }}"/>
-              <h4>{{ course.name }}</h4>
-              <p>{{ course.details }}</p>
-            </div>
-          </div>
+            {% include_relative {{ course.icon }} %}
+            <h4>{{ course.name }}</h4>
+            <p>{{ course.details }}</p>
         </div>
         {% endif %}
       {% endfor %}
     </div>
-    <h4>Specialised Courses:</h4>
+
+    <br/><br/><h3>Specialised Courses:</h3><br/>
     <div class="row">
       {% for course in site.data.courses %}
         {% if course.category == "specialised" %}
-        <div class="col-sm-3">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <h4>{{ course.name }}</h4>
-              <p>{{ course.details }}</p>
-            </div>
-          </div>
+        <div class="col-sm-4">
+          {% include_relative {{ course.icon }} %}
+          <h4>{{ course.name }}</h4>
+          <p>{{ course.details }}</p>
         </div>
         {% endif %}
       {% endfor %}
     </div>
+
+    <br/><br/><h3>Find out more about the courses <a href="/courses"><u>here</u></a>.</h3>
+    <br/><br/><br/>
   </div>
 </section>
