@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section class="intro">
-  <div class="intro-bg" style="background-image: url('/img/bg/academy-2.jpg')">
+  <div class="intro-bg" style="background-image: url('{% if page.img %}{{ page.img }}{% else %}/img/bg/academy-2.jpg{% endif %}')">
   </div><!-- /.intro-bg -->
 
   <div class="intro-content">
@@ -49,8 +49,4 @@ layout: default
     </div><!-- /.section-actions -->
   </div>
 </section>
-
-{% include academy/events.html %}
-
-{% include section-wall.html %}
 
