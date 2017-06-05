@@ -9,7 +9,7 @@
     content: ''
 }
 
-.callout-about, .callout-box, .event-box, .event-box .event-overlay,
+.event-box, .event-box .event-overlay,
 .event-thumb, .file .file-actions a, .intro {
     text-align: center
 }
@@ -189,33 +189,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #333944;
-    font-weight: 900;
-    line-height: 1.2
-}
-
-h1 {
-    font-size: 50px
-}
-
-h2 {
-    font-size: 26px
-}
-
-h3 {
-    font-size: 24px
-}
-
-h4 {
-    font-size: 20px
-}
-
-h5 {
-    font-size: 18px
-}
-
-h6 {
-    font-size: 14px
+    color: #000;
 }
 
 a {
@@ -526,55 +500,6 @@ a {
     margin-top: 9px
 }
 
-.breadcrumbs {
-    padding: 8px 0 9px;
-    background: #fafafb;
-    font-size: 14px;
-    font-weight: 700
-}
-
-.breadcrumb {
-    padding: 0;
-    margin: 0;
-    background: 0 0
-}
-
-.breadcrumb > li {
-    position: relative;
-    float: left;
-    display: block
-}
-
-.breadcrumb a {
-    display: block
-}
-
-.breadcrumb a:hover {
-    opacity: .7;
-    text-decoration: none
-}
-
-.breadcrumb .active a {
-    color: #b8babe
-}
-
-.breadcrumb > li + li {
-    padding-left: 22px;
-    margin-left: 12px
-}
-
-.breadcrumb > li + li:before {
-    position: absolute;
-    top: 6px;
-    left: 0;
-    padding: 0;
-    background-image: url(../css/images/sprite.png);
-    background-position: -194px -71px;
-    color: inherit;
-    width: 8px;
-    height: 12px
-}
-
 @media (max-width:767px) {
     .article ul {
         font-size: 14px
@@ -603,7 +528,6 @@ a {
     height: 60px;
     background: #ed1c24;
     font-size: 18px;
-    font-weight: 900;
     line-height: 60px;
     color: #fff;
     -webkit-appearance: none;
@@ -699,22 +623,22 @@ a {
 
 .callout-about {
     padding: 20px 0;
-    font-size: 24px;
-    line-height: 1.4;
 }
 
 .callout-about h2 {
     margin: 0 0 14px;
-    font-size: 30px
 }
 
 .callout-about a {
-    color: #333944
+    color: #333;
+    text-decoration: underline;
+}
+.callout-about a:hover {
+    color: #000;
 }
 
 .copyright {
     margin-bottom: 0;
-    font-size: 14px
 }
 
 .copyright a {
@@ -809,7 +733,6 @@ a {
 .event-thumb .event-date {
     margin: 0 0 8px;
     font-size: 16px;
-    font-weight: 700
 }
 
 .event-thumb .event-date a {
@@ -879,7 +802,6 @@ a {
 .event-box .event-date {
     display: block;
     font-size: 14px;
-    font-weight: 900;
     opacity: .7;
 }
 
@@ -898,7 +820,6 @@ a {
 .event-box .event-content h4 {
     margin: 0 0 10px;
     line-height: 1.25;
-    font-weight: 400;
     color: #525959
 }
 
@@ -954,7 +875,6 @@ a {
     padding-bottom: 9px;
     font-size: 16px;
     color: #1f2631;
-    font-weight: 700
 }
 
 .file .file-location {
@@ -966,7 +886,6 @@ a {
 .file .file-title {
     margin: 0 0 10px;
     font-size: 16px;
-    font-weight: 700
 }
 
 .file .file-entry {
@@ -1305,7 +1224,6 @@ textarea.form-control {
 .form-contact .form-btn {
     min-width: 180px;
     font-size: 16px;
-    font-weight: 400
 }
 
 @media (max-width:767px) {
@@ -1637,7 +1555,6 @@ textarea.form-control {
 
 .nav {
     font-size: 14px;
-    font-weight: 700
 }
 
 .nav > ul {

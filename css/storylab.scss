@@ -5,6 +5,10 @@ img {
   max-width: 100%;
 }
 
+.panel, .panel-heading {
+  border-radius: 0;
+}
+
 .header {
   .logo {
     max-height: 55px;
@@ -56,9 +60,15 @@ img {
 }
 
 .section-courses {
+  padding: 60px 0;
+  h4 {
+    color: #fff;
+  }
   svg, img {
     width: 70px;
     height: 70px;
+    float: left;
+    fill: #fff;
   }
 }
 
