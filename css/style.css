@@ -712,6 +712,7 @@ a {
     height: 100%;
     text-align: center;
     color: #fff;
+    border-radius: 999px;
     transition: .2s
 }
 
