@@ -4,7 +4,7 @@ layout: default
 
 
 <section class="intro">
-  <div class="intro-bg" style="background-image: url('/img/bg/academy-2.jpg')">
+  <div class="intro-bg" style="background-image: url('/img/bg/dronecamp-1.jpeg')">
   </div><!-- /.intro-bg -->
 
   <div class="intro-content">
@@ -51,15 +51,15 @@ layout: default
 </section>
 
 
- <section class="section-upcoming-academies">
-  <div class="container">
+<section class="section-upcoming-academies">
+  <div class="container" style="max-width: 800px;">
     <header class="section-head">
       <h1 class="section-title">Upcoming Academies</h1><!-- /.section-title -->
     </header><!-- /.section-head -->
     <div class="section-body">
       <div class="event-thumbs">
         {% for event in site.data.events %}
-          <div class="event-thumb" style="width:20%">
+          <div class="event-thumb">
             <div class="event-image">
 
               <a href="{{ event.url }}">
@@ -71,9 +71,6 @@ layout: default
             </div><!-- /.event-image -->
 
             <div class="event-content">
-              <h6 class="event-date">
-                <a href="{{ event.url }}">{{ event.date }}</a>
-              </h6><!-- /.event-date -->
             </div><!-- /.event-content -->
           </div><!-- /.event-thumb -->
         {% endfor %}
