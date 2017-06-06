@@ -61,15 +61,35 @@ img {
 
 .section-courses {
   padding: 60px 0;
-  h4 {
-    color: #fff;
+
+  .course-icon {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+    border-radius: 9999px;
+    background-color: rgba(255,255,255,0.2);
+
+    width: 60px;
+    height: 60px;
+
+    svg, img {
+      width: 100%;
+      height: 100%;
+      fill: #fff;
+    }
   }
-  svg, img {
-    width: 70px;
-    height: 70px;
-    float: left;
-    fill: #fff;
+
+  .course-description {
+    text-align: left;
+    display: inline-block;
+    padding: 10px;
+    h4 {
+      color: #fff;
+      display: inline-block;
+      vertical-align: middle;
+    }
   }
+  
 }
 
 .list-stats li {
