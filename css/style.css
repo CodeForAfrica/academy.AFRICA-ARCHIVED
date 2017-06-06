@@ -185,7 +185,8 @@ body {
     background: #fff;
     line-height: 1.6;
     font-family: Lato, sans-serif;
-    color: #333
+    color: #333;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -194,32 +195,6 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     transition: .2s
-}
-
-@media (max-width:767px) {
-    body, h5 {
-        font-size: 14px
-    }
-
-    h1 {
-        font-size: 26px
-    }
-
-    h2 {
-        font-size: 20px
-    }
-
-    h3 {
-        font-size: 18px
-    }
-
-    h4 {
-        font-size: 16px
-    }
-
-    h6 {
-        font-size: 12px
-    }
 }
 
 .clear:after {
