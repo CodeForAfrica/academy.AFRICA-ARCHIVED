@@ -15,14 +15,20 @@ This new partnership seeks to change that, by bringing together [**Code for Afri
 Together, we’ll build on Code for Africa’s award-winning StoryLab digital journalism laboratory, which has physical hubs in four African countries along with a global network of roving data journalists and digital creatives who help newsrooms on projects ranging from investigative data analysis, to drone journalism and 360° video.
  
 The new Academy adds additional learning materials and media partnerships that expand the geographic footprint and online reach through four initial programmes:
+
+
+<div class="bg-info" style="padding: 15px 15px 10px; margin: 15px 0;">
+
+<p><strong>Newsroom Partnerships:</strong> the Academy is partnering with 36 newsrooms for bi-weekly onsite workshops and StoryLab support to use new skills on new flagship projects. Get more details <a href="/partners">here</a>.</p>
  
-**Newsroom Partnerships:** the Academy is partnering with 36 newsrooms for bi-weekly onsite workshops and StoryLab support to use new skills on new flagship projects. Get more details [here](/partners).
+<p><strong>Mass Open Online Course (MOOC):</strong> a set of flexible online courses will simultaneously help African journalists anywhere on the continent by giving modular lessons for both beginners and those with more advanced skills in a range of specialist tracks ranging from investigative and data journalism, to multimedia storytelling. Get more details <a href="/courses">here</a>.</p>
  
-**Mass Open Online Course (MOOC):** a set of flexible online courses will simultaneously help African journalists anywhere on the continent by giving modular lessons for both beginners and those with more advanced skills in a range of specialist tracks ranging from investigative and data journalism, to multimedia storytelling. Get more details [here](/courses).
+<p><strong>Public Workshops:</strong> Face-to-face tuition remains an important of the Academy approach, with workshops and masterclasses co-hosted with local Hacks/Hackers chapters in the 12 target cities, along with support for local study groups and small seed-grants for team projects using the new skills.  Get more details <a href="/partners">events</a>.</p>
  
-**Public Workshops:** Face-to-face tuition remains an important of the Academy approach, with workshops and masterclasses co-hosted with local Hacks/Hackers chapters in the 12 target cities, along with support for local study groups and small seed-grants for team projects using the new skills.  Get more details [here](/events).
+<p><strong>University Partnerships:</strong> the Academy will also work with African journalism schools to help customise and localise the best available international curricula to strengthen digital journalism training, and to bring in guest lecturers from rolemodel newsrooms. Get more details <a href="/partners">here</a>.</p>
+
+</div>
  
-**University Partnerships:** the Academy will also work with African journalism schools to help customise and localise the best available international curricula to strengthen digital journalism training, and to bring in guest lecturers from rolemodel newsrooms. Get more details [here](/partners).
  
 “For journalists, recent advances in digital technology present compelling new opportunities. But learning how to use new digital tools for reporting can be daunting. This is particularly true in Africa, where digital integration in news and storytelling often remains a challenge. That’s why we are announcing our support for [this] new digital journalism initiative,” explains Google News Lab’s head of training and development, Daniel Sieberg.
  
@@ -33,10 +39,11 @@ Find out more about partnerships opportunities [here](/partners).
 Find out more about our courses and events [here](/academy).
 Contact us [here](/contact-us).
 
----
+
+<hr style="margin: 30px 0;" />
 
 
-#### The Partners:
+### The Partners:
 
 ![Code for Africa](/img/logos/powered-by/cfafrica.png)
   
