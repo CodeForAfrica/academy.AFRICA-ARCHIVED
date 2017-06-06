@@ -1,11 +1,11 @@
-name,description,tools,icon,category,
-News Gathering,Advance your reporting with these essential digital tools.,,/img/icons/fundamentals.svg,normal,use the Public Data Explorer icon (https://newslab.withgoogle.com/training/tools)?
-Storytelling,,,/img/icons/fundamentals.svg,normal,
-Engagement,,,/img/icons/fundamentals.svg,normal,use the AMP icon? (ligthening bolt)
-Sustainability,Maximize readership and revenue on digital platforms.,,/img/icons/monetization.svg,normal,
-Data Journalism,"Learn to source, interpret and visualize data.",,/img/icons/datajournalism.svg,specialised,
-Investigative Reporting,Improve the efficiency and efficacy of your in-depth research.,,/img/icons/investigative.svg,specialised,
-Geo-Journalism,,,/img/icons/fundamentals.svg,specialised,map pin icon?
-Multimedia Storytelling,"Build interactive visuals, videos and maps.",,/img/icons/multimedia.svg,specialised,
-Verification,Authenticate reports and images you find online.,,/img/icons/verification.svg,specialised,
-Digital Security,"Protect yourself from hacking, digital attacks and censorship.",,/img/icons/security.svg,specialised,
+name,description,tools,icon,category
+News Gathering,Advance your reporting with these essential digital tools.,,/img/icons/bigquery.svg,normal
+Storytelling,,,/img/icons/fundamentals.svg,normal
+Engagement,,,/img/icons/amp.svg,normal
+Sustainability,Maximize readership and revenue on digital platforms.,,/img/icons/monetization.svg,normal
+Data Journalism,"Learn to source, interpret and visualize data.",,/img/icons/datajournalism.svg,specialised
+Investigative Reporting,Improve the efficiency and efficacy of your in-depth research.,,/img/icons/investigative.svg,specialised
+Geo-Journalism,,,/img/icons/map-pin.svg,specialised
+Multimedia Storytelling,"Build interactive visuals, videos and maps.",,/img/icons/multimedia.svg,specialised
+Verification,Authenticate reports and images you find online.,,/img/icons/verification.svg,specialised
+Digital Security,"Protect yourself from hacking, digital attacks and censorship.",,/img/icons/security.svg,specialised
