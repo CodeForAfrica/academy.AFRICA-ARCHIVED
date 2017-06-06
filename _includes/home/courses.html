@@ -1,45 +1,33 @@
 <section class="section-courses">
-  <div class="container text-center">
-    <p class="lead">
+  <div class="container text-center" style="max-width: 920px;">
+    <h3>
       Improve your digital storytelling <br/>
       with a combination of online webinars and face-to-face training in:
-    </p><br/>
-    <div class="row text-left">
+    </h3><br/><br/>
+    <div class="row">
       {% for course in site.data.courses %}
         {% if course.category == "normal" %}
         <div class="col-sm-3">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <div class="course-icon">
-                {% include_relative {{ course.icon }} %}
-              </div>
-              <div class="course-description">
-                <h4>{{ course.name }}</h4>
-                <!-- {% if course.description != "" %}<p>{{ course.description }}</p>{% endif %} -->
-              </div>
-            </div>
+          <div class="course-icon">
+            {% include_relative {{ course.icon }} %}
           </div>
+          <h3>{{ course.name }}</h3>
+          <!-- {% if course.description != "" %}<p>{{ course.description }}</p>{% endif %} -->
         </div>
         {% endif %}
       {% endfor %}
     </div>
 
-    <br/><br/><p class="lead">Specialised Courses:</p><br/>
-    <div class="row text-left">
+    <br/><h3>Specialised Courses:</h3><br/><br/>
+    <div class="row">
       {% for course in site.data.courses %}
         {% if course.category == "specialised" %}
         <div class="col-sm-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <div class="course-icon">
-                {% include_relative {{ course.icon }} %}
-              </div>
-              <div class="course-description">
-                <h4>{{ course.name }}</h4>
-                <!-- {% if course.description != "" %}<p>{{ course.description }}</p>{% endif %} -->
-              </div>
-            </div>
+          <div class="course-icon">
+            {% include_relative {{ course.icon }} %}
           </div>
+          <h3>{{ course.name }}</h3>
+          <!-- {% if course.description != "" %}<p>{{ course.description }}</p>{% endif %} -->
         </div>
         {% endif %}
       {% endfor %}
