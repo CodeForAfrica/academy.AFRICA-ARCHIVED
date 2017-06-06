@@ -713,7 +713,8 @@ a {
     text-align: center;
     color: #fff;
     border-radius: 999px;
-    transition: .2s
+    background-color: rgba(0,0,0,0.3);
+    transition: .2s;
 }
 
 .event-thumb .event-overlay .event-title {
@@ -728,7 +729,8 @@ a {
 }
 
 .event-thumb .event-title {
-    color: #fff
+    color: #fff;
+    font-size: 18px;
 }
 
 .event-thumb .event-date {
@@ -751,7 +753,7 @@ a {
 
 @media (max-width:1023px) {
     .event-thumb .event-title {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
