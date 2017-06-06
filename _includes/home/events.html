@@ -1,18 +1,15 @@
 <section class="section-events">
 
-  <div class="container">
+  <div class="container" style="max-width: 800px;">
     <header class="section-head">
       <!-- /.section-title -->
-      <h3 class="section-title">Improve your digital storytelling<br/>
-      with a combination of online webinars and face-to-face training.
-      </h3>
+      <h2 class="section-title">Join Us In</h2>
     </header><!-- /.section-head -->
 
     <div class="section-body">
       <div class="event-thumbs">
         {% for event in site.data.events %}
-          {% if event.blurbs == "TRUE" %}
-          <div class="event-thumb small-circles">
+          <div class="event-thumb">
             <div class="event-image">
 
               <a href="{{ event.url }}">
@@ -24,16 +21,19 @@
             </div><!-- /.event-image -->
 
             <div class="event-content">
-
-              <div class="event-entry">
+              <!-- <div class="event-entry">
                 <a href="{{ event.url }}" class="btn btn-text-small event-btn">Register Now</a>
-              </div><!-- /.event-entry -->
+              </div> --><!-- /.event-entry -->
             </div><!-- /.event-content -->
           </div><!-- /.event-thumb -->
-          {% endif %}
         {% endfor %}
 
       </div><!-- /.event-thumbs -->
+
+      <br/>
+      <p class="text-center">
+        <a href="/registration" class="btn">Register Now</a>
+      </p>
     </div><!-- /.section-body -->
   </div><!-- /.container -->
 </section><!-- /.section-events -->
