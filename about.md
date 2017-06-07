@@ -8,18 +8,18 @@ body_class: page-about
  
 African newsrooms often feel left behind.
  
-Access to the tools and know-how to leapfrog into digital journalism is often limited to only the most privileged newsrooms. 
+Access to the tools and know-how to leapfrog into digital journalism is often limited to only a few newsrooms. 
  
-This new partnership seeks to change that, by bringing together [**Code for Africa**](https://codeforafrica.org/)’s local expertise with [**Google News Lab**](http://newslab.withgoogle.com/)’s global technologies, the [**World Bank**](http://worldbank.org/)’s rich data and information resources and HacksHackers Africa’s online community of 30,000 news geeks across the continent. 
+This new partnership seeks to change that, by bringing together [**Code for Africa**](https://codeforafrica.org/)’s local expertise with [**Google News Lab**](http://newslab.withgoogle.com/)’s global training initiative, the [**World Bank**](http://worldbank.org/)’s rich data and information resources and [**HacksHackers Africa**](https://www.facebook.com/HacksHackersAfrica/)’s online community of 30,000 news geeks across the continent. 
  
-Together, we’ll build on Code for Africa’s award-winning StoryLab digital journalism laboratory, which has physical hubs in four African countries along with a global network of roving data journalists and digital creatives who help newsrooms on projects ranging from investigative data analysis, to drone journalism and 360° video.
+Together, we’ll build on Code for Africa’s award-winning StoryLab digital journalism laboratory, which has physical hubs in four African countries along with an existing global network of roving data journalists and digital creatives who help newsrooms on projects ranging from investigative data analysis, to drone journalism and 360° video.
  
 The new Academy adds additional learning materials and media partnerships that expand the geographic footprint and online reach through four initial programmes:
 
 
 <div class="bg-info" style="padding: 15px 15px 10px; margin: 15px 0;">
 
-<p><strong>Newsroom Partnerships:</strong> the Academy is partnering with 36 newsrooms for bi-weekly onsite workshops and StoryLab support to use new skills on new flagship projects. Get more details <a href="/partners">here</a>.</p>
+<p><strong>Newsroom Partnerships:</strong> the Academy is partnering with 36 newsrooms for bi-weekly onsite workshops and StoryLab support to use digital skills on new flagship projects. Get more details <a href="/partners">here</a>.</p>
  
 <p><strong>Mass Open Online Course (MOOC):</strong> a set of flexible online courses will simultaneously help African journalists anywhere on the continent by giving modular lessons for both beginners and those with more advanced skills in a range of specialist tracks ranging from investigative and data journalism, to multimedia storytelling. Get more details <a href="/courses">here</a>.</p>
  
@@ -32,12 +32,12 @@ The new Academy adds additional learning materials and media partnerships that e
  
 “For journalists, recent advances in digital technology present compelling new opportunities. But learning how to use new digital tools for reporting can be daunting. This is particularly true in Africa, where digital integration in news and storytelling often remains a challenge. That’s why we are announcing our support for [this] new digital journalism initiative,” explains Google News Lab’s head of training and development, Daniel Sieberg.
  
-The innovations aren’t all from the from the North. Much of the hands-on data journalism training materials that complements Google’s online tutorials were developed and tested in the Sudan and Kenya by the World Bank. The courseware runs alongside repositories of local data (for exercises or projects) and a library of open source software code for easy-to-deploy news apps and visualisations created by Code for Africa teams in Nigeria and Tanzania.
+Much of the instruction material was developed within Africa. The hands-on data journalism training materials that complements Google’s online tutorials were developed and tested in the Sudan and Kenya by the World Bank. The courseware runs alongside repositories of local data (for exercises or projects) and a library of open source software code for easy-to-deploy news apps and visualisations created by Code for Africa teams in Nigeria and Tanzania.
  
-Connect with HacksHackers pan-African community [here](https://facebook.com/HacksHackersAfrica).
-Find out more about partnerships opportunities [here](/partners).
-Find out more about our courses and events [here](/academy).
-Contact us [here](/contact-us).
+Connect with HacksHackers pan-African community [here](https://facebook.com/HacksHackersAfrica).  
+Find out more about partnerships opportunities [here](/partners).  
+Find out more about our courses and events [here](/academy).  
+Contact us [here](/contact-us).  
 
 
 <hr style="margin: 30px 0;" />
