@@ -36,7 +36,7 @@ Much of the instruction material was developed within Africa. The hands-on data 
  
 Connect with HacksHackers pan-African community [here](https://facebook.com/HacksHackersAfrica).  
 Find out more about partnerships opportunities [here](/partners).  
-Find out more about our courses and events [here](/academy).  
+Find out more about our courses and events [here](/courses).  
 Contact us [here](/contact-us).  
 
 
