@@ -5,30 +5,55 @@
       with a combination of online webinars and face-to-face training in:
     </h3><br/><br/>
     <div class="row">
+      {% assign count = 1 %}
       {% for course in site.data.courses %}
         {% if course.category == "normal" %}
-        <div class="col-sm-3">
-          <div class="course-icon">
-            {% include_relative {{ course.icon }} %}
+          <div class="col-xs-6 col-sm-3">
+            <div class="course-icon">
+              {% include_relative {{ course.icon }} %}
+            </div>
+            <h3>{{ course.name }}</h3>
+            <!-- {% if course.description != "" %}<p>{{ course.description }}</p>{% endif %} -->
           </div>
-          <h3>{{ course.name }}</h3>
-          <!-- {% if course.description != "" %}<p>{{ course.description }}</p>{% endif %} -->
-        </div>
+
+          {% assign loopindex = count | modulo: 4 %}
+          {% if loopindex == 0 %}
+          <div class="visible-sm clearfix"></div>
+          {% endif %}
+          {% assign loopindex = count | modulo: 2 %}
+          {% if loopindex == 0 %}
+          <div class="visible-xs clearfix"></div>
+          {% endif %}
+
+          {% assign count = count | plus: 1 %}
+
         {% endif %}
       {% endfor %}
     </div>
 
     <br/><h3>Specialised Courses:</h3><br/><br/>
     <div class="row">
+      {% assign count = 1 %}
       {% for course in site.data.courses %}
         {% if course.category == "specialised" %}
-        <div class="col-sm-4">
-          <div class="course-icon">
-            {% include_relative {{ course.icon }} %}
+          <div class="col-xs-6 col-sm-4">
+            <div class="course-icon">
+              {% include_relative {{ course.icon }} %}
+            </div>
+            <h3>{{ course.name }}</h3>
+            <!-- {% if course.description != "" %}<p>{{ course.description }}</p>{% endif %} -->
           </div>
-          <h3>{{ course.name }}</h3>
-          <!-- {% if course.description != "" %}<p>{{ course.description }}</p>{% endif %} -->
-        </div>
+          
+          {% assign loopindex = count | modulo: 3 %}
+          {% if loopindex == 0 %}
+          <div class="visible-sm clearfix"></div>
+          {% endif %}
+          {% assign loopindex = count | modulo: 2 %}
+          {% if loopindex == 0 %}
+          <div class="visible-xs clearfix"></div>
+          {% endif %}
+          {% assign count = count | plus: 1 %}
+
         {% endif %}
       {% endfor %}
     </div>
