@@ -14,7 +14,8 @@ layout: default
         <h1>Registration</h1>
 
         <div class="intro-actions">
-          <a href="{{ site.registration_form }}" class="btn btn-block" target="_blank" rel="noopner">Applications Open</a>
+          <a href="{{ site.registration_form }}" class="btn" target="_blank" rel="noopner">Applications Open</a>
+          <a href="{{ site.registration_form_fr }}" target="_blank" rel="noopener" class="btn">Applications Ouvertes</a>
         </div><!-- /.intro-actions -->
 
       </div><!-- /.container -->
@@ -45,7 +46,12 @@ layout: default
     <div class="section-body">
       {{ content }}
       <br/><br/>
+      <h2>Registration Form (English)</h2><br/>
       <iframe src="{{ site.registration_form }}?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+      <br/><br/>
+      <h2>Formulaire D'inscription (French)</h2><br/>
+      <iframe src="{{ site.registration_form_fr }}?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </div>
   </div>
 </section>
