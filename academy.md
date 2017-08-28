@@ -4,7 +4,7 @@ title: Academy
 ---
 ## What is the StoryLab Academy?
 
-<p class="lead"><em>The StoryLab Academy brings together the best of Google , the World Bank and Code for Africa’s data journalism resources and technology to support high-quality journalism in Africa.</em></p>
+<p class="lead"><em>The StoryLab Academy brings together the best of Google, the World Bank, and Code for Africa’s data journalism resources and technology to support high-quality journalism in Africa.</em></p>
  
 For journalists, recent advances in digital technology present compelling new opportunities to discover, tell, and share stories. But learning how to use new digital tools for reporting can be daunting. This is particularly true in Africa where digital integration in news and storytelling often remains a challenge. Across the continent, few journalism institutions offer training programs in digital tools and news organization lack the capability to leverage new digital technologies in their reporting.    
  

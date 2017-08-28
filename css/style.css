@@ -1317,8 +1317,11 @@ textarea.form-control {
 }
 
 .intro .intro-actions {
-    max-width: 220px;
+    /*max-width: 220px;*/
     margin: 45px auto 0
+}
+.intro .intro-actions .btn {
+    margin: 10px;
 }
 
 .intro-home .intro-content-inner {
