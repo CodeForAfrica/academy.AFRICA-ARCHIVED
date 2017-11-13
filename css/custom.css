@@ -1,12 +1,12 @@
 .intro .intro-soldout { max-width: 320px; margin: 45px auto 0; }
 
 .intro-soldout .btn{
-    color:#ed1c24!important;
-    background-color:#fff!important;
+    color:#ed1c24;
+    background-color:#fff;
 }
 
 .intro-soldout .btn:hover{
-    color:rgb(229, 0, 96)!important;
+    color:rgb(229, 0, 96);
 }
 
 .event-soldout {
@@ -21,18 +21,27 @@
     font-weight:600;
 }
 
-/** FIX TRANSFORM POSTION FOR REPSONSIVE **/
-@media (max-width: 1023px) {
-   .event-soldout { font-size: 14px; margin-top:2px; }
-}
-@media (max-width: 767px) {
-  .event-soldout { font-size: 12px;}
-}
+.list-stats li a:hover{ color:#ed1c24; text-decoration:none;}
+.list-stats li a:focus{ color:#ed1c24; text-decoration:none;}
+.section-events { padding: 45px 0 43px; }
+.section-about { padding: 20px 0 62px; }
+
+/* ------------------------------------------------------------ *\
+  Section Newsletter
+\* ------------------------------------------------------------ */
+.section-newsletter { padding: 70px 0 89px; background: #000; color: #fff; }
+.section-newsletter .section-head { padding-bottom: 30px; text-align: center; }
+.section-newsletter .section-title { margin: 0; color: #fff; }
+.section-newsletter p { font-size:24px; }
+
+
+.section-newsletter.section-white { padding: 70px 0 89px; color: #333944; background:#fff; }
+.section-newsletter.section-white .section-head { padding-bottom: 30px; text-align: center; }
+.section-newsletter.section-white .section-title { margin: 0; color: #333944; }
+.section-newsletter.section-white p { font-size:24px; }
+.section-newsletter.section-white .form-control { background:#fafafb; border:1px; }
 
 .event-box .event-ended { display: block; font-size: 14px; font-weight: 900; text-transform: uppercase; }
-
-.list-stats li a:hover{ color:#ed1c24!important; text-decoration:none;}
-.list-stats li a:focus{ color:#ed1c24!important; text-decoration:none;}
 
 .pagination > li > a, .pagination > li > span { color:#1968a8; }
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
@@ -50,25 +59,8 @@
   height: 95px;
   visibility: hidden;
 }
-.section-events { padding: 45px 0 43px!important; }
-.section-about { padding: 20px 0 62px!important; }
 
 #organiselogo{margin-bottom:40px;}
-
-/* ------------------------------------------------------------ *\
-  Section Newsletter
-\* ------------------------------------------------------------ */
-.section-newsletter { padding: 70px 0 89px; background: #000; color: #fff; }
-.section-newsletter .section-head { padding-bottom: 30px; text-align: center; }
-.section-newsletter .section-title { margin: 0; color: #fff; }
-.section-newsletter p { font-size:24px; }
-
-
-.section-newsletter.section-white { padding: 70px 0 89px; color: #333944!important; background:#fff; }
-.section-newsletter.section-white .section-head { padding-bottom: 30px; text-align: center; }
-.section-newsletter.section-white .section-title { margin: 0; color: #333944; }
-.section-newsletter.section-white p { font-size:24px; }
-.section-newsletter.section-white .form-control { background:#fafafb; border:1px; }
 
 /* ------------------------------------------------------------ *\
   Profile Thumbs Small for Participants
@@ -97,11 +89,11 @@
 }
 
 a.event-btn{
-  width:100%!important;
-  line-height:35px!important;
-  height:35px!important;
+  width:100%;
+  line-height:35px;
+  height:35px;
   margin-bottom:8px;
-  padding: 0 15px 0 15px!important;
+  padding: 0 15px 0 15px;
 }
 
 a.blue-btn{
@@ -155,27 +147,27 @@ a.blue-btn{
 .section-upcoming-academies .event-thumb .event-date a{ color:#1968a8; }
 
 .small-circles{
-   width:20%!important;
+   width:20%;
 }
 
 @media (max-width: 767px) {
   .small-circles{
-    width:50%!important;
+    width:50%;
   }
 }
 
 @media (min-width:768px) and (max-width: 992px) {
   .small-circles{
-    width:25%!important;
+    width:25%;
   }
 }
 
 @media (max-width:1199px){
   .small-circles h2{
-    font-size:22px!important;
+    font-size:22px;
   }
   .small-circles .event-date{
-    font-size:14px!important;
+    font-size:14px;
   }
 }
 
@@ -204,4 +196,12 @@ a.blue-btn{
     color: #4caff0;
     text-transform: uppercase;
     font-weight: 900;
+}
+
+/** FIX TRANSFORM POSTION FOR REPSONSIVE **/
+@media (max-width: 1023px) {
+   .event-soldout { font-size: 14px; margin-top:2px; }
+}
+@media (max-width: 767px) {
+  .event-soldout { font-size: 12px;}
 }
