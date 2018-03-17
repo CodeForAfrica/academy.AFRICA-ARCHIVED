@@ -1,8 +1,21 @@
-# StoryLab Academy
-The website for the StoryLab Academy, which hosts a set of online courses / webinars for digital journalism, along with communities that host physical meetups and workshops to improve digital skills in African newsrooms.
+# Academy.AFRICA
 
-The Academy is a partnership between Code for Africa, the Google News Lab, the World Bank, and Hacks/Hackers Africa.
+The [StoryLab Academy](https://academy.codeoforafrica.org/) seeks to help, by bringing face-to-face training into partner newsrooms across Africa, and by hosting public workshops at monthly [Hacks/Hackers meetups](https://facebook.com/HacksHackersAfrica).
 
-The website is based on the NewsImpact.io template by the European Journalism Centre (EJC).
+Read more about it here: https://academy.codeforafrica.org/
 
-Photography on the site is courtesy of Google News Lab and africanDRONE.
+## Installation
+
+This is a Jekyll powered site. To install and learn more about Jekyll, visit https://jekyllrb.com/
+
+Once you have Jekyll installed, you can serve the web pages like so:
+
+```
+jekyll s
+```
+
+---
+
+## LICENSE
+
+MIT
