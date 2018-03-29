@@ -1274,7 +1274,9 @@ textarea.form-control {
 .intro p {
     margin: 0;
     line-height: 1.2;
-    font-weight: 700
+    font-weight: 700;
+    font-family: 'Arimo', sans-serif;
+    text-transform:none;
 }
 
 .intro .disabled {
@@ -1322,10 +1324,31 @@ textarea.form-control {
 }
 .intro .intro-actions .btn {
     margin: 10px;
+    float:left;
 }
 
 .intro-home .intro-content-inner {
     height: 500px
+}
+.text-container p {
+    color:#000000;
+    width:35%;
+}
+.btn-style  {
+        padding-left:9rem;
+}   
+
+@media (max-width:767px) {
+    .text-container p {
+        color:#000000;
+        width:100%;
+        font-size:24px;
+    }   
+}
+@media (max-width:767px) {
+    .btn-style  {
+        padding-left:6.5rem;
+    }   
 }
 
 @media (max-width:767px) {
