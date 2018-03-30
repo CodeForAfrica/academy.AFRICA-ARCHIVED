@@ -1,3 +1,12 @@
+/**
+ * NewsImpact style.css
+ * --------------------
+ * Author: NewsImpact Team / EJC
+ *
+ * NOTE: Please don't make any changes here and instead use css/storylab.scss
+ *
+**/
+
 .breadcrumb-arrow, .check-disabled, .check-green, .ico-doc {
     display: inline-block;
     vertical-align: middle;
@@ -1274,7 +1283,7 @@ textarea.form-control {
 .intro p {
     margin: 0;
     line-height: 1.2;
-    font-weight: 700
+    font-weight: 700;
 }
 
 .intro .disabled {

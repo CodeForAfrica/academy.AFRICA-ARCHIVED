@@ -1,6 +1,18 @@
 ---
 ---
 
+/* custom.scss for academy.AFRICA Site
+ * -----------------------------------
+ * Author: Code for Africa
+ *
+ * Custom styles for academy.AFRICA site based on NewsImpact.io.
+ *
+ * All changes would go into this file to retain integrity of the rest of the site. 
+ * 
+ */
+
+// General Styles
+
 img {
   max-width: 100%;
 }
@@ -30,27 +42,32 @@ img {
 }
 
 
-.powered-by {
-  padding: 50px 0;
 
-  .text-right {
-    padding-top: 15px; padding-bottom: 15px;
-    border-right: 1px solid #eee;
+// Home page
+
+.intro-home {
+  .intro-bg {
+    background-position: center;
   }
-  a {
-    img {
-      max-width: 240px;
-      max-height: 65px;
-      margin: 10px;
+  .intro-content-inner {
+    height: auto;
+    padding: 100px 0 80px;
+    h1 {
+      font-size: 50px;
+      font-weight: 300;
     }
-    &:hover {
-      text-decoration: none;
-      img {
-        opacity: 0.8;
+    p {
+      text-transform: none;
+      font-weight: 400;
+    }
+
+    .intro-actions {
+      margin: 20px 0 0;
+      a {
+        margin-left: 0;
       }
     }
   }
-  
 }
 
 .section-courses {
@@ -86,6 +103,9 @@ img {
     width: 50%;
   }
 }
+
+
+// About page
 
 .page-about {
   .section-academy .section-body img {
