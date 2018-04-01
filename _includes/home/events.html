@@ -9,6 +9,7 @@
     <div class="section-body">
       <div class="event-thumbs">
         {% for event in site.data.events %}
+          {% if event.thumbnail == "TRUE" %}
           <div class="event-thumb">
             <div class="event-image">
 
@@ -26,6 +27,7 @@
               </div> --><!-- /.event-entry -->
             </div><!-- /.event-content -->
           </div><!-- /.event-thumb -->
+          {% endif %}
         {% endfor %}
 
       </div><!-- /.event-thumbs -->

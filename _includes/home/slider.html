@@ -2,31 +2,40 @@
   <div class="slider-clip">
     <div class="slides">
 
-      <div class="slide">
-        <section class="intro intro-home">
-          <div class="intro-bg" style="background-image: url('../img/bg/mooc-complete.bg.jpg');">
-          </div><!-- /.intro-bg -->
+      {% for event in site.data.events %}
 
-          <div class="intro-content">
-            <div class="intro-content-inner">
-              <div class="container">
+        {% if event.slider == "TRUE" %}
+        
+          <div class="slide">
+            <section class="intro intro-home">
+              <div class="intro-bg" style="background-image: url('{{ event.img_large }}')">
+              </div><!-- /.intro-bg -->
 
-                <div class="row text-left">
-                  <div class="col-md-5 col-sm-7">
-                    <h1>Online Courseware</h1>
-                    
-                    <p>Sign up for a free world-class digital journalism course with mixed media lessons, concise tip-sheets and practical exercises</p>
+              <div class="intro-content">
+                <div class="intro-content-inner">
+                  <div class="container">
+                    <p class="disabled">Join us in</p>
+
+                    <h1>{{ event.city }}</h1>
+
+                    <p>{{ event.country }}</p>
                     <div class="intro-actions">
-                      <a href="https://courses.academy.africa/" target="_blank" rel="noopener" class="btn">Start Learning</a>
+                      {% if event.thumbnail == "TRUE" %}
+                        <a href="{{ event.url }}" target="_blank" rel="noopener" class="btn">Register (EN)</a>
+                        <a href="{{ event.url_fr }}" target="_blank" rel="noopener" class="btn">Register (FR)</a>
+                      {% else %}
+                        <a href="{{ event.url }}" target="_blank" rel="noopener" class="btn">Start Learning</a>
+                      {% endif %}
                     </div><!-- /.intro-actions -->
-                  </div>
-                </div> <!-- /.row -->
-                
-              </div><!-- /.container -->
-            </div><!-- /.intro-content-inner -->
-          </div><!-- /.intro-content -->
-        </section><!-- /.intro -->
-      </div><!-- /.slide -->
+                  </div><!-- /.container -->
+                </div><!-- /.intro-content-inner -->
+              </div><!-- /.intro-content -->
+            </section><!-- /.intro -->
+          </div><!-- /.slide -->
+
+        {% endif %}
+
+      {% endfor %}
       
     </div><!-- /.slides -->
   </div><!-- /.slider-clip -->
