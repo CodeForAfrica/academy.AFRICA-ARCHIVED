@@ -1,4 +1,6 @@
-# academy.AFRICA
+# [academy.AFRICA](https://academy.africa/) Website
+
+![Screenshot - Homepage](./img/screenshots/home-1.png)
 
 [Github pages](https://pages.github.com/) + [Jekyll](https://jekyllrb.com/) powered micro-site for [academy.AFRICA](https://academy.africa/).
 
