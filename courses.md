@@ -5,7 +5,7 @@ title: Courses
 
 The news cycle is relentless: it doesn’t allow for journalists to take weeks off to learn new skills.
 
-That’s why [**Code for Africa**](https://codeforafrica.org), with support from [**Google News Lab**](https://newslab.withgoogle.com/) and the **World Bank**’s [Global Media Development Programme](https://blogs.worldbank.org/category/tags/media-development), have launched a Massive Open Online Course (MOOC) specifically designed for African journalists.
+That’s why [**Code for Africa**](https://codeforafrica.org), with support from [**Google News Initiative**](https://newsinitiative.withgoogle.com/) and the **World Bank**’s [Global Media Development Programme](https://blogs.worldbank.org/category/tags/media-development), have launched a Massive Open Online Course (MOOC) specifically designed for African journalists.
 
 The MOOC is free of charge, and launches with 47 lessons created by some of the world’s leading digital journalism experts. Structured around six initial courses, the lessons start with basic numeracy and continue to advanced subjects such as mapmaking and video production. The lessons are designed to help to speed up news gathering processes; improve journalists’ ability to check facts quickly; and provide the background necessary to produce charts, graphics and content for social sharing. Additional lessons offering new techniques or increasingly advanced skills will be added on a regular basis.
 
