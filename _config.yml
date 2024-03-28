@@ -1,8 +1,8 @@
 title: academy.AFRICA
 description: Data journalism training supported by Code for Africa, Google, and World Bank.
 
-url: https://academy.africa
-enforce_ssl: academy.africa
+url: https://old.academy.africa
+enforce_ssl: old.academy.africa
 
 registration_form: "https://docs.google.com/forms/d/e/1FAIpQLScwSFVA8KcC0QcLq3NvWZFUB115o_hVgtjDBYLiHdJQIq6MuA/viewform?c=0&w=1"
 registration_form_fr: "https://goo.gl/forms/A0NcshnWfnz2WJYj1"
