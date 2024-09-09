@@ -1,5 +1,7 @@
 # [academy.AFRICA](https://academy.africa/) Website
 
+**ARCHIVED**: See https://github.com/CodeForAfrica/academy.AFRICA for V2.
+
 ![Screenshot - Homepage](./img/screenshots/home-1.png)
 
 [Github pages](https://pages.github.com/) + [Jekyll](https://jekyllrb.com/) powered micro-site for [academy.AFRICA](https://academy.africa/).
